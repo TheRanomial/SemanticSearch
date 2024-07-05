@@ -6,6 +6,8 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "types": ["node", "dotenv"],
+    "target": "es2020",
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
